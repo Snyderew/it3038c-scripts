@@ -25,15 +25,9 @@ while myGuess != randomNumber:
 
         myGuess = int(input())
 
-    elif myGuess > 9:
-
-        print("You guessed a number higher than 9. Please enter a number between 0 and 9.")
-
-        myGuess = int(input())
-
     else:
 
-        print("That is not a number. Please enter a number between 0 and 9.")
+        print("You guessed a number higher than 9. Please enter a number between 0 and 9.")
 
         myGuess = int(input())
 
