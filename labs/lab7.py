@@ -1,8 +1,14 @@
-from TextStatistic import count_words
+import textstat
 
-Print("Enter the name of the file you want to get a word count from.")
+print("Enter your text below to receive your text stats.")
 
-filename = input()
-cw = count_words (filename)
-print(cw)
+data = input()
+
+print(
+"Character Count:" + str(textstat.char_count(data, ignore_spaces=True)) + "\n"
+"Letter Count:" + str(textstat.letter_count(data, ignore_spaces=True)) + "\n"
+"Sentence Count:" + str(textstat.sentence_count(data)) + "\n"
+"Syllable Count:" + str(textstat.syllable_count(data)) + "\n"
+"Grade Level:" + str(textstat.text_standard(data)) 
+)
 
