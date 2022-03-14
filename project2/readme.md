@@ -1,1 +1,3 @@
 For Project 2, I decided to write a NodeJS script that displays the contents of a log file to a web page. In this specific case, the script is displaying the contents of the "Secure" log file that is used in CentOS. To use the script, all you need to do is navigate to the directory of the script, then run "node project2.js". This will run the script and listen on port 3000. Then you just need to navigate to "localhost:3000/log" in your web browser while the script is running to view the web page. At the top of the page is large text that says "Secure Log" and underneath that is the content of the log file. 
+
+Keep in mind that you will need to use your CentOS machine to run this script with no modification as the "var/log/" directory is only on Linux operating systems.
