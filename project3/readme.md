@@ -23,5 +23,5 @@ Note: os, platform, shutil are included in Python Standard Library <br>
 3. Navigate to http://localhost:5000/ to go to the homepage <br><br>
    http://localhost:5000/home also takes you to the homepage <br><br>
 4. View the webpages in your browser
-  <br>
+  <br><br>
 Note: The functions used in my code should be compatible with Windows, but have only been tested in Linux.
