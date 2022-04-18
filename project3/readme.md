@@ -4,7 +4,7 @@
   </p>
 <h2> Requirements </h2>
 
-Python Version used: Python 3.6.8
+Python Version used: Python 3.6.8 <br>
 Modules: flask, os, platform, shutil
 Install Flask: pip install flask
 Note: os, platform, shutil are included in Python Standard Library
