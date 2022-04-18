@@ -1,0 +1,16 @@
+<!DOCTYPE html> 
+<head>
+</head>
+<body>
+	
+	<a href={{url_for('home')}}>Homepage</a>
+	<a href={{url_for('sysinfo')}}>System Information</a>
+	<a href={{url_for('storage')}}>Storage Space</a>
+	<a href={{url_for('uptime')}}>System Uptime</a>
+
+	<br>
+	{% block content %}
+	{% endblock %}
+</body>
+</html>
+

@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2>Homepage</h2>
+<p>
+Welcome to my Flask app for Project 3! <br>
+
+View system info, such as OS version and computer name, <a href={{url_for('sysinfo')}}>here</a>. <br>
+
+View available storage space on your system <a href={{url_for('storage')}}>here</a>. <br>
+
+View your system's uptime <a href={{url_for('uptime')}}>here</a>.
+
+</p>
+{% endblock %}
