@@ -11,6 +11,20 @@ Note: os, platform, shutil are included in Python Standard Library <br>
 
 <h2> Instructions </h2>
 1. Create Flask venv
+<br>
   Windows: <br>
   py -3 -m venv venv <br>
   venv\Scripts\activate.ps1 <br>
+<br>  
+  Linux: <br>
+  python3 -m venv venv <br>
+  . venv/bin/activate <br>
+2. Run project3.py to deploy web server locally on port 5000
+
+3. Navigate to http://localhost:5000/ to go to the homepage
+  
+  http://localhost:5000/home also takes you to the homepage
+
+4. View webpages in your browser
+  
+Note: The functions used in my code should be compatible with Windows, but have only been tested in Linux.
