@@ -20,9 +20,9 @@ Note: os, platform, shutil are included in Python Standard Library <br>
   python3 -m venv venv <br>
   . venv/bin/activate <br>
 2. Run project3.py to deploy web server locally on port 5000 <br>
-4. Navigate to http://localhost:5000/ to go to the homepage <br>
+3. Navigate to http://localhost:5000/ to go to the homepage <br>
   
-  http://localhost:5000/home also takes you to the homepage
-4. View webpages in your browser
+  http://localhost:5000/home also takes you to the homepage <br>
+  4. View webpages in your browser
   
 Note: The functions used in my code should be compatible with Windows, but have only been tested in Linux.
