@@ -10,7 +10,6 @@ Install Flask: pip install flask <br>
 Note: os, platform, shutil are included in Python Standard Library <br>
 
 <h2> Instructions </h2>
-
 1. Create Flask venv
   
 Windows: <br>
