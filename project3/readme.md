@@ -12,9 +12,9 @@ Note: os, platform, shutil are included in Python Standard Library <br>
 <h2> Instructions </h2>
 1. Create Flask venv
 <br><br>
-  Windows: <br>
-  py -3 -m venv venv <br>
-  venv\Scripts\activate.ps1 <br>
+     Windows: <br>
+     py -3 -m venv venv <br>
+     venv\Scripts\activate.ps1 <br>
 <br>  
   Linux: <br>
   python3 -m venv venv <br>
