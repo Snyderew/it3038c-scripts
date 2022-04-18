@@ -5,21 +5,21 @@
 <h2> Requirements </h2>
 
 Python Version used: Python 3.6.8 <br>
-Modules: flask, os, platform, shutil
-Install Flask: pip install flask
-Note: os, platform, shutil are included in Python Standard Library
+Modules: flask, os, platform, shutil <br>
+Install Flask: pip install flask <br>
+Note: os, platform, shutil are included in Python Standard Library <br>
 
 <h2> Instructions </h2>
 
 1. Create Flask venv
   
-Windows: 
-py -3 -m venv venv 
-venv\Scripts\activate.ps1 
+Windows: <br>
+py -3 -m venv venv <br>
+venv\Scripts\activate.ps1 <br>
   
-Linux:
-python3 -m venv venv 
-. venv/bin/activate 
+Linux: <br>
+python3 -m venv venv <br>
+. venv/bin/activate <br>
   
 2. Run project3.py to deploy web server locally on port 5000
   
